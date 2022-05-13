@@ -35,7 +35,7 @@ namespace des{
         return DESTables::All_S[s_index][16 * row + col];
     }
 
-    DES::DES(const std::vector<uint64_t> &subKeys) : sub_keys(subKeys) {}
+    DES::DES(const std::vector<uint64_t> &sub_keys) : sub_keys(sub_keys) {}
 
     uint64_t DES::encrypt(uint64_t input) {
         return run(input, true);

@@ -12,7 +12,7 @@ namespace des{
         char s_convert(int s_index, uint8_t subject);
         uint64_t run(uint64_t input, bool do_encrypt);
     public:
-        explicit DES(const std::vector<uint64_t> &subKeys);
+        explicit DES(const std::vector<uint64_t> &sub_keys);
         uint64_t encrypt(uint64_t input);
         uint64_t decrypt(uint64_t input);
     };
