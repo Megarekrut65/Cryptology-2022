@@ -1,0 +1,8 @@
+# ninja log v5
+1	1490	6741647426295853	CMakeFiles/Lab2.dir/DES/tables/des_tables.cpp.obj	b3edd1ad493b4cd2
+36	1495	6741647426295853	CMakeFiles/Lab2.dir/main.cpp.obj	2d4a3c9a22149ee0
+1496	2014	6741647431608199	Lab2.exe	160597d9e1f4b0ef
+10	1303	6741647623488901	CMakeFiles/Lab2.dir/DES/tables/des_tables.cpp.obj	b3edd1ad493b4cd2
+1304	1535	6741647625676315	Lab2.exe	160597d9e1f4b0ef
+5	1062	6741647799966385	CMakeFiles/Lab2.dir/DES/tables/des_tables.cpp.obj	b3edd1ad493b4cd2
+1063	1285	6741647801997572	Lab2.exe	160597d9e1f4b0ef
