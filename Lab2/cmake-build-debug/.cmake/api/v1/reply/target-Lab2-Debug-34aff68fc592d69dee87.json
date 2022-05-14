@@ -113,7 +113,8 @@
 				4,
 				6,
 				8,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -178,6 +179,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "encrypt_algorithm/keys/keys_creator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tests/des_test.h",
 			"sourceGroupIndex" : 1
 		}
 	],
