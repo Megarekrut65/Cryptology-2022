@@ -114,7 +114,8 @@
 				6,
 				8,
 				10,
-				11
+				11,
+				12
 			]
 		}
 	],
@@ -184,6 +185,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tests/des_test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tests/descbc_test.h",
 			"sourceGroupIndex" : 1
 		}
 	],

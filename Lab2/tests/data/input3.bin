@@ -1,0 +1,23 @@
+
+Using the VM
+
+The provided account is "compilers" and the password is "cool".
+To start the VM, click the green "Start" button. This should make the VM boot.
+To shut down the VM, click on the round "Bodhi" button at the bottom left and click System. Then choose Power Off.
+We have installed what you need to do the assignments, plus a few other programs, such as vim and emacs. If you want to install other packages, you can use the Aptitude graphical package manager (under the Bodhi menu->Applications->Preferences) or the apt-get command line tool. If you are not familiar with these, there are many tutorials online that you can find through a quick Google search.
+To get a terminal, click on the termina
+First, download Oracle's VirtualBox, either from the VirtualBox website at https://www.virtualbox.org/wiki/Downloads, or from Oracle's download page at http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html. Choose the version for the operating system you are running on your computer. (N.B. If you are running macOS, you will need to download version 5 of VirtualBox. Not version 6.)
+Once the download completes, run the installer to install VirtualBox. You will need administrator access on your computer to do so.
+Getting our VM image
+
+Download our linux virtual machine image here. Note that this download is approximately 750MB.
+
+
+In order to complete the assignments for this course, you need to download the grading scripts for each assignment. Since this version of Bodhi doesn't support TLS, you need to set up a shared folder between your host operating system and the virtual machine. That way you can download the scripts to your host system and access them on your VM.
+
+Go the VirtualBox homVirtualBox VM setup
+                     If you have not used a VM before, the idea is that you will be running an entire operating system inside a program (VirtualBox) that looks to the virtual guest operating system like real hardware. We provide a downloadable image of the guest OS with everything installed, so that you only need to do minimal setup to get started.
+
+                     Note that since a VM contains a whole second operating system, the system requirements are high. The VM will take a bit over 512MB of ram (so you will probably want to have 2GB of total ram to keep Windows or Mac OS X running smoothly), plus a bit over 2GB of hard disk space.
+
+                     Getting VirtualBoxe screen and click on the settings icon

@@ -1,10 +1,12 @@
 #pragma once
+
 #include <sstream>
 #include <vector>
 
-namespace des{
+namespace des {
     using TableType = char;
     using Table = std::vector<TableType>;
+
     class DESTables {
     public:
         static const Table IP;//[64];
@@ -23,7 +25,8 @@ namespace des{
         static const Table LEFT_SHIFT;//[16];
         static const Table H;//[48];
         static const Table All_S[8];
-        static std::stringstream table_to_stream(const Table& table, std::size_t rows, std::size_t columns);
+
+        static std::stringstream table_to_stream(const Table &table, std::size_t rows, std::size_t columns);
     };
 }
 

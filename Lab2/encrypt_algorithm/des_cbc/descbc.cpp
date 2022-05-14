@@ -3,7 +3,7 @@
 namespace des {
     const uint64_t DESCBC::expander = 0xFFFFFFFFFFFFFFFF;
 
-    DESCBC::DESCBC(const std::vector<uint64_t> &sub_keys) : sub_keys(sub_keys), des{DES(sub_keys)} {}
+    DESCBC::DESCBC(const std::vector<uint64_t> &sub_keys) : des{DES(sub_keys)} {}
 
     void DESCBC::encrypt_input(std::istream &in, std::ostream &out, uint64_t iv) {
         std::streamsize length = in.tellg();

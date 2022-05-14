@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+Lab2/tests/data/input1_encrypt.bin
+Lab2/tests/data/input1_output.bin
+Lab2/tests/data/input2_encrypt.bin
+Lab2/tests/data/input2_output.bin
+Lab2/tests/data/input3_encrypt.bin
+Lab2/tests/data/input3_output.bin

@@ -1,6 +1,6 @@
 #include "keys_creator.h"
 
-namespace des{
+namespace des {
 
     std::vector<uint64_t> create_keys(uint64_t key, int keys_count) {
         std::vector<uint64_t> sub_keys(keys_count);

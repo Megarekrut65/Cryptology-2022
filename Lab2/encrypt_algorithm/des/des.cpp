@@ -1,6 +1,6 @@
 #include "des.h"
 
-namespace des{
+namespace des {
     const std::size_t DES::iterations = 16;
 
     uint64_t DES::run(uint64_t input, bool do_encrypt) {
@@ -16,6 +16,7 @@ namespace des{
         input = (((uint64_t) right) << 32) | (uint64_t) left;
         return convert(DESTables::IP_1, input, 64);
     }
+
     uint32_t DES::f(uint64_t key, uint32_t right) {
         uint64_t e = convert(DESTables::E, right, 32);
         e ^= key;
